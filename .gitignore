@@ -1,0 +1,11 @@
+mysql.local.conf
+
+.idea/
+
+migrations/
+__pycache__/
+templates/
+
+dev/
+.qiniu_pythonsdk_hostscache.json
+

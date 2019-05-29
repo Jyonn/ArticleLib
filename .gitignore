@@ -4,7 +4,6 @@ mysql.local.conf
 
 migrations/
 __pycache__/
-templates/
 
 dev/
 .qiniu_pythonsdk_hostscache.json

@@ -1,0 +1,16 @@
+{% load staticfiles %}
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>文引</title>
+    <link rel="stylesheet" href="{% static "css/styles.css" %}">
+</head>
+<body>
+    <div class="title">文引</div>
+    <input placeholder="微信公众号文章链接" type="text"/>
+    <pre id="html" class="inactive"></pre>
+    <div class="button" id="start">引用</div>
+</body>
+<script src="{% static 'js/base.js' %}"></script>
+<script src="{% static 'js/main.js' %}"></script>
+</html>
